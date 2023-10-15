@@ -80,7 +80,22 @@ img {
   margin: 0 auto; 
 }
 
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  border-bottom: #e7e9fc;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .logo {
+  margin-right: 76px;
   font-weight: 700;
   font-size: 1.125rem;
   font-family: 'Raleway', sans-serif;
@@ -98,11 +113,19 @@ img {
   color: #f4f4fd;
 }
 
-.navigation {}
+.navigation {
+  display: flex;
+  align-items: center;
+}
 
-.navigation__list {}
+.navigation__list {
+  display: flex;
+  gap: 40px;
+}
 
-.navigation__item {}
+.navigation__item {
+  padding: 24px 0;
+}
 
 .navigation__link {
   font-weight: 500;
@@ -111,7 +134,10 @@ img {
 
 .address {}
 
-.address__list {}
+.address__list {
+  display: flex;
+  gap: 40px;
+}
 
 .address__item {}
 
