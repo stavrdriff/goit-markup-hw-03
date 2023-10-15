@@ -17,12 +17,14 @@ body {
 }
 
 h1 {
+  margin: 0;
   font-size: 3.5rem;
   line-height: 1.07;
   letter-spacing: .02em;
 }
 
 h2 {
+  margin: 0;
   font-size: 2.25rem;
   line-height: 1.11;
   letter-spacing: .02em;
@@ -31,11 +33,16 @@ h2 {
 }
 
 h3 {
+  margin: 0;
   font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: .02em;
   color: #2E2F42;
+}
+
+p {
+  margin: 0;
 }
 
 a {
@@ -58,7 +65,19 @@ address {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.container { 
+  max-width: calc(70.5rem + 30px);
+  padding: 0 15px; 
+  margin: 0 auto; 
 }
 
 .logo {
