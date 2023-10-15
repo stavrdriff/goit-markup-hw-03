@@ -1,0 +1,153 @@
+:root {
+  --color-cloud: #F4F4FD;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-weight: 400;
+  font-size: inherit;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+  letter-spacing: .02em;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.07;
+  letter-spacing: .02em;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 1.11;
+  letter-spacing: .02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: .02em;
+  color: #2E2F42;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: .02em;
+  color: #434455;
+}
+
+a {
+  transition: background-color .25s ease-in;
+}
+
+a:hover,
+a:focus {
+  color: #404BBF;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.125rem;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.17;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo__span {
+  color: #2e2f42;
+}
+
+.logo--white .logo__span {
+  color: #f4f4fd;
+}
+
+.navigation {}
+
+.navigation__list {}
+
+.navigation__item {}
+
+.navigation__link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.address {}
+
+.address__list {}
+
+.address__item {}
+
+.address__link {}
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero__title {
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero__action {
+  line-height: 1.5;
+  letter-spacing: .04em
+}
+
+.hero__action {
+  font-weight: 500;
+  color: #fff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+
+.hero__action:hover,
+.hero__action:focus {
+  background-color: #404bbf;
+}
+
+.section {}
+
+.section--background {
+  background-color: #F4F4FD;
+}
+
+.section__title {
+  text-align: center;
+}
+
+.section__title--hidden {}
+
+.team {}
+
+.team__item {
+  background-color: #fff;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer__promote {
+  --color-footer-text: var(--color-cloud);
+
+  color: var(--color-footer-text);
+}
