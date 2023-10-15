@@ -85,7 +85,7 @@ img {
   top: 0;
   left: 0;
   background-color: #fff;
-  border-bottom: #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header__container {
