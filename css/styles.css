@@ -294,10 +294,13 @@ img {
   background-color: #2e2f42;
 }
 
+.footer .logo {
+  margin-bottom: 16px;
+  display: inline-block;
+}
+
 .footer__promote {
   --color-footer-text: var(--color-cloud);
   
-  margin-bottom: 16px;
-  display: inline-block;
   color: var(--color-footer-text);
 }
