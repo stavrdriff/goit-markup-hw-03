@@ -2,6 +2,10 @@
   --color-cloud: #F4F4FD;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 16px;
 }
@@ -127,11 +131,11 @@ img {
   gap: 40px;
 }
 
-.navigation__item {
-  padding: 24px 0;
-}
+.navigation__item {}
 
 .navigation__link {
+  display: flex;
+  padding: 24px 0;
   font-weight: 500;
   color: #2e2f42;
 }
