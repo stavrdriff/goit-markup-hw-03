@@ -60,6 +60,10 @@ a:focus {
   color: #404BBF;
 }
 
+button {
+  cursor: pointer;
+}
+
 address {
   font-style: normal;
 }
@@ -144,17 +148,24 @@ img {
 .address__link {}
 
 .hero {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
 .hero__title {
+  max-width: 496px;
   text-align: center;
   color: #ffffff;
 }
 
 .hero__action {
+  display: block;
+  min-width: 169px;
+  height: 56px;
   line-height: 1.5;
-  letter-spacing: .04em
+  letter-spacing: .04em;
+  border-radius: 4px;
+  border: none;
 }
 
 .hero__action {
